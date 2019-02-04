@@ -19,7 +19,7 @@ export default class App extends Component{
             this.createTodoLable("Drink Vodka")
         ]
         ,term: ""
-        ,filter: "activ" // activ and done
+        ,filter: "activ" 
     }
 
     createTodoLable(lable){
