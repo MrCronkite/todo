@@ -106,7 +106,7 @@ export default class App extends Component{
             return item.lable.toLowerCase().indexOf(term.toLowerCase()) > -1;
         })
     }
-
+    //sort items
     filter(items, filter){
          switch(filter){
              case "all":
