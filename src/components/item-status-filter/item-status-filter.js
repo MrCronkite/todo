@@ -15,7 +15,7 @@ render(){
    const {filter, onFilter}= this.props;     
 
    const buttons = this.buttons.map(({name, label})=>{
-        //filter button
+        
         const activBtn = filter===name;
         const class_ = activBtn ? "btn-info" : "btn-outline-secondary"
            return(
